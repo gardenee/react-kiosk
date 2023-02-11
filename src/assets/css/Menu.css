@@ -1,0 +1,24 @@
+.menu-tab {
+	padding: 0;
+	list-style: none;
+	height: 30px;
+}
+.menu-tab li {
+	float: left;
+	display: inline;
+	line-height: 30px;
+	background-color: #176237;
+	border-radius: 5px 5px 0 0;
+	font-size: 15px;
+	padding: 0 20px;
+	cursor: pointer;
+	color: white;
+}
+.menu-tab li:hover {
+	background-color: #124829;
+	font-weight: bold;
+}
+.menu-tab li.active {
+	background-color: #124829;
+	font-weight: bold;
+}

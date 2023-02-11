@@ -3,7 +3,9 @@
 	width: 50%;
 	text-align: right;
 	margin-top: 10px;
+	min-width: 300px;
 }
 .naviMenu a {
 	padding: 0 5px;
+	display: inline;
 }
